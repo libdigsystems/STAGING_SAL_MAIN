@@ -1,0 +1,307 @@
+
+
+
+
+/*Uncomment the follwoing lines to move facets to the left*/
+
+/*prm-search > md-content.md-primoExplore-theme  {
+    display: -webkit-flex; !* Safari *!
+    -webkit-flex-flow: row-reverse wrap; !* Safari 6.1+ *!
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+}
+.flex-gt-md-25.sidebar{
+    webkit-flex: 0 0 15%;
+    flex: 0 0 15%;
+}
+
+.main{
+    webkit-flex: 0 0 65%;
+    flex: 0 0 65%;
+}
+
+.layout-row>.flex-gt-lg-10{
+    webkit-flex: 0 0 16%;
+    flex: 0 0 16%;
+    max-width: none;
+}
+*/
+
+/* Search box background JM 130916 */
+.prm-primary-bg, prm-spinner.overlay-cover.light-on-dark::after, prm-search-bar{
+	background-color: #C60C30;
+
+	}
+
+/* Change colors for top menu JM 130916*/
+.prm-primary-bg.prm-hue1, prm-search-bar.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark:after, prm-topbar .top-nav-bar{ 
+  background-color: #FFFFFF;
+  color: #C60C30;
+  }
+	
+/* Hide language drop down JM 130916 */
+prm-change-lang {
+  display: none;
+}
+
+/*change text color for View it, Send to etc 23/09/16 DW */
+
+.section-title, .md-title, .light-text{
+	color: #C60C30;
+}
+
+/*change color of top level menu items (New Search, A-Z etc) 23/09/16 DW */
+
+.item-content {
+    color: #C60C30; 
+}
+
+/* text color of more menu from top nav bar option 23 /09/16 DW */
+
+/* comment out for because of poor style 29/09/16 DW
+.md-headline span {
+    color: #C60C30;
+}
+
+
+.overlay-menu-content,.layout-full-height,._md,.md-primoExplore-theme,.layout-align-gt-sm-start-center,.layout-align-start-start,.layout-column, span.md-headline
+	{
+	
+      color: #C60C30;
+}
+*/
+
+/* change color of alert banner 29/09/16 DW bright yellow was #fffe33*/
+
+.alert-bar {
+    background-color: #fcf683;
+    border-color: #fcf683;
+}
+
+/* Change item details info to black 29/09/16 DW    */
+.item-detail {
+	color: #000000;
+}
+
+
+/*REMOVE BULLET POINTS 30/09/16 DW */
+ul  {
+	list-style: none;
+}
+
+.overlay-menu-content.layout-full-height._md.md-primoExplore-theme.layout-align-gt-sm-start-center.layout-align-start-start.layout-column
+{
+	background-color: transparent;
+    box-shadow: 0 0 0 0 #333333;
+}
+/* Guest & username text color top right 30/09/16 DW*/
+prm-user-area .user-menu-button .user-name {
+	color:#C60C30;
+}
+
+
+/*Search icon 30/09/16 DW */
+.md-button.button-confirm {
+	color: #C60C30;
+
+}
+
+.zero-margin.button-confirm.md-button.md-primoExplore-theme.md-ink-ripple {
+    color: #C60C30;
+
+}
+
+/*UoS logo increase size 30/09/16 DW */
+prm-logo .logo-image, prm-logo img {
+    max-height: 120%;
+}
+
+/* radio buttons in advanced search 30/09/16 DW */
+
+.prm-secondary-bg.prm-hue1, md-tabs md-ink-bar, md-input-container:after, md-radio-button.md-checked .md-on, md-radio-button.md-checked ._md-on {
+    background-color: #999;
+}
+
+.prm-secondary-border.prm-hue1, md-select:focus .md-select-value, .md-input-container-dummy > .md-select-dummy:focus .md-select-value, .md-input-focused md-select .md-select-value, .md-input-focused .md-input-container-dummy > .md-select-dummy .md-select-value, md-select:focus:not([disabled]) .md-select-value, .md-input-focused md-select:not([disabled]) .md-select-value, md-radio-button.md-checked .md-off, md-radio-button.md-checked ._md-off {
+    border-color: #999;
+}
+/* advanced search banner  30/09/16 DW */
+.advanced-search-backdrop.visible {
+	background-color: #C60C30;
+
+}
+
+/* simple search text on advanced banner 30/09/16 DW */
+
+.switch-to-simple.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple {
+    color: #ffffff;
+	}
+/* large links on more screen 27/09/16 DW */	
+
+.prm-links.prm-alt-link.prm-hue1, prm-main-menu[menu-type="full"] md-card .md-headline, .md-button.arrow-link-button .prm-alt-link.prm-hue1[link-arrow], md-grid-tile .tile-header .header-link .prm-alt-link.prm-hue1.arrow-icon, .tiles-grid-tile .tile-header .header-link .prm-alt-link.prm-hue1.arrow-icon, md-grid-tile .tile-header .prm-alt-link.prm-hue1.header-link:hover, .tiles-grid-tile .tile-header .prm-alt-link.prm-hue1.header-link:hover, md-grid-tile .tile-header .prm-alt-link.prm-hue1.md-button, .tiles-grid-tile .tile-header .prm-alt-link.prm-hue1.md-button {
+    color: #a9cdd6; 
+	text-transform: capitalize;
+	/* UoS secondary colour  color: #009AA6; */
+}
+
+/* color of reset filter, pin make same as UoS secondary colors 03/10/16 DW */
+
+.md-button.button-as-link.link-alt-color, .bar prm-authentication .md-button.link-alt-color, .bar prm-authentication .section-title prm-icon.md-button, .section-title .bar prm-authentication prm-icon.md-button, .section-title prm-icon.md-button.button-as-link {
+    color: #009AA6;
+}
+
+/*increase margin left of main content on results page to allow for chat widget on left 04/10/16 DW */
+
+md-content, md-content.md-primoExplore-theme {
+
+    margin-left: 25px;
+}
+
+.flex-60, .layout-row > .flex-60 {
+
+    margin-left: 25px;
+}
+
+.search-elements-wrapper, advanced-mode layout-row flex {
+	margin-left: 25px;
+}
+
+/* Start changes for MY Library Card done in Production on Firebug 05/10/16 DW */
+
+
+.prm-secondary-bg.prm-hue1, md-tabs md-ink-bar, md-input-container::after, md-radio-button.md-checked .md-on, md-radio-button.md-checked ._md-on {
+    background-color: #999;
+}
+
+/* style SOLAR/ Library Search new feed on homepage 06/10/16 DW */
+
+a.rss-item  {
+    color: #5c92bd;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+ul.rss-items{
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style: outside none none;
+}
+
+/* capitalize top level labels (New search, Databases etc) 12/10/16 DW */
+
+.item-content {
+    font-size: 1.1em;
+    text-transform: capitalize;
+} 
+
+prm-main-menu[menu-type="full"] .md-button {
+    font-size: inherit;
+    text-transform: capitalize;
+}
+
+prm-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+    color: white;
+    text-transform: capitalize;
+}
+
+.switch-to-simple.zero-margin.button-with-icon.md-button.md-primoExplore-theme.md-ink-ripple {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.md-button.button-with-icon > prm-icon + span{
+	text-transform: capitalize;
+}
+
+/* My account changes 18/10/16 DW */
+
+/* My Account menu tabs (overview, Loans, Requests etc) 18/10/16 DW     */
+md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item:not([disabled]).md-active, md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item:not([disabled]).md-focused {
+    
+    text-transform: capitalize;
+}
+
+md-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item:not([disabled]) {
+ 
+    text-transform: capitalize;
+}
+
+/*remove icons in My Account 18/18/16 DW */
+
+prm-icon.giant-icon md-icon {
+
+	display: none;
+}
+
+md-grid-tile .message-with-icon md-icon, .tiles-grid-tile .message-with-icon md-icon {
+	display: none;
+}
+
+/*increase width of facets column on right 19/10/16 DW*/
+
+.margin-right-large, .sidebar-inner-wrapper {
+    margin-right: 1em;
+}
+
+/* numbering in My Favourites 24/10/16 DW */
+
+span.list-item-count {
+	color: #f2f2f2;
+}
+
+/* hide address box in My Details section 24/10/16 DW */
+
+.presentable-disabled-inputs.animate-form-inputs.layout-wrap.layout-row {
+    display: none;
+}
+
+/* make classmark more prominent 28/10/16 DW */
+
+span.best-location-delivery.locations-link {
+  font-size: 1.2em;
+  background-color: #ffffff;
+  font-weight: 800;
+
+}
+
+/* rounded corners on advanced search box 07/11/2016 DW */
+
+.form-focus {
+    
+    border-radius: 5px;
+}
+
+.layout-column {
+
+     border-radius: 5px;
+}
+
+prm-search-bar .advanced-search-tabs {
+
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+}
+
+/* UoS red for search/favourite icon in top banner 08/11/2016 DW */
+
+.md-icon-button.button-over-dark.md-button.md-primoExplore-theme.md-ink-ripple {
+    background-color: #c60c30;
+    color: #f2f2f2;
+}
+
+.md-icon-button.button-over-dark.md-button.md-primoExplore-theme.md-ink-ripple :hover{
+     color:#ffffff;
+}
+
+/* hide language top right 08/11/2016 DW */
+
+span.user-language.text-uppercase {
+	display: none;
+}
+
+/* hide Return to text in My Account overview 23/11/2016 dW */
+
+.no-wrap-line.weak-text > span {
+    display: none;
+}
